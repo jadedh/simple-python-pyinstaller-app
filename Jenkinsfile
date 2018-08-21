@@ -1,10 +1,13 @@
 pipeline {
-    agent none
     stages {
         stage('Build') {
-            steps {
-                echo hello
-            }
+            
+        }
+        stage('Test') {
+            
+        }
+        stage('Deliver') {
+            
         }
     }
 }
