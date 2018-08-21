@@ -3,7 +3,9 @@ pipeline {
     stages {
         stage('Build') {
             agent {
-                none
+                docker {
+                    image 'chris'
+                }
             }
             steps {
                 echo hello
