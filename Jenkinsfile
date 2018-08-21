@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             agent {
-
+                none
             }
             steps {
                 echo hello
